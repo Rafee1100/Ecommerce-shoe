@@ -1,21 +1,23 @@
 html{
-    scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
-   
-    
+    scroll-behavior: smooth;     
 }
 
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+/* header starts */
 header{
     
     background:#f6ede6;
     border-radius: 10px;
     margin-bottom: 40px;
 }
-
+        /* navbar starts */
 .link-nav{
     color:#3C3C3C;
     margin-right:20px;
     font-weight: bold; 
+    
 }
 
 .link-nav:hover{
@@ -27,21 +29,14 @@ header{
     box-shadow: 5px 5px 5px rgba(128,128,128, 0.75);  
     
 }
-.card-img-top{
-    padding-left: 10px;
-}
 .nav-sec{
     margin-bottom: 50px;
 }
-    
-.header-img{
-    height: 430px;
-    width: 430px;
-}
-header-img-last{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
+     /* header-image */
+.heading-image{
+    height: auto;
+    width:80%;
+    padding-bottom: 20px;
 }
 .header-description h1{
     font-family: 'Bebas Neue', cursive;
@@ -54,7 +49,7 @@ header-img-last{
     font-family:'Roboto', sans-serif ;
     font-weight:400;
     color:#3E3E3E;
-    line-height: 20px;
+    line-height: 26px;
 }
 .header-description .highlight{
     color:#FA804C;
